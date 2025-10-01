@@ -1,5 +1,5 @@
-🚀 Launching EC2, Configuring Git, and Connecting GitHub
-1️⃣ Launching an EC2 Instance (Amazon Linux)
+#🚀 Launching EC2, Configuring Git, and Connecting GitHub
+#1️⃣ Launching an EC2 Instance (Amazon Linux)
 Login to AWS Console.
 
 Search for EC2 service.
@@ -14,7 +14,7 @@ Once launched, copy the Public DNS of the instance.
 
 SSH into EC2
 ssh -i "key.pem" ec2-user@ec2-3-80-195-140.compute-1.amazonaws.com
-2️⃣ Install and Configure Git
+#2️⃣ Install and Configure Git
 Update packages and install Git:
 
 sudo yum update -y
